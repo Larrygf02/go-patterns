@@ -37,7 +37,7 @@ func (rbp ReceptorBajaPrioridad) ProcesarMensaje(prioridad int, mensaje string) 
 	return ""
 }
 
-func main() {
+func mainx() {
 	manejadores := ReceptorBajaPrioridad{
 		siguiente: ReceptorAltaPrioridad{},
 	}

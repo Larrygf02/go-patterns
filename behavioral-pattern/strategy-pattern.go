@@ -39,7 +39,7 @@ func (c *Contexto) EjecutarOperacion(num1 int, num2 int) int {
 
 var contexto Contexto
 
-func main() {
+func _() {
 	num1 := 10
 	num2 := 5
 	// suma

@@ -46,7 +46,7 @@ func (e *Editor) Restaurar(memento Memento) {
 	e.contenido = memento.GetContenido()
 }
 
-func main() {
+func _() {
 	editor := &Editor{}
 	editor.Escribir("Texto A")
 	editor.Escribir("Texto B")
