@@ -34,7 +34,7 @@ func (u *UsuarioChat) EnviarMensaje(mensaje string) {
 	u.mediador.MostrarMensaje(u, mensaje)
 }
 
-func main() {
+func _() {
 	mediador := &ChatRoom{}
 	usuarioA := &UsuarioChat{"Daniel", mediador}
 	usuarioB := &UsuarioChat{"Pedro", mediador}
