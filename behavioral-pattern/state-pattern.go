@@ -37,7 +37,7 @@ func (em *EditorMarkdown) Redactar(texto string) string {
 	return em.estado.Escribir(texto)
 }
 
-func main() {
+func _() {
 	editor := &EditorMarkdown{}
 	fmt.Printf("Texto redactado sin estado: %s\n", editor.Redactar("Lorem ipsum"))
 
