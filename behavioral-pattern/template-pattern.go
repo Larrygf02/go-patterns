@@ -51,7 +51,7 @@ func (d DeployiOs) Publicar() {
 	fmt.Println("iOs: Publicando")
 }
 
-func main() {
+func _() {
 	deployAndroid := DeployAndroid{Deploy{}}
 	deployAndroid.Construir(&deployAndroid)
 
