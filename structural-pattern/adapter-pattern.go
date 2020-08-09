@@ -42,7 +42,7 @@ func (j *Jugador) Atacar() string {
 	return j.guerrero.UsarArma()
 }
 
-func main() {
+func _() {
 	jugadorA := &Jugador{&Elfo{}}
 	fmt.Printf("Jugador A: %s\n", jugadorA.Atacar())
 
