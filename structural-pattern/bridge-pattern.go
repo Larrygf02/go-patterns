@@ -53,7 +53,7 @@ func (r *RedWifi) Conectar() string {
 	return "Wifi"
 }
 
-func main() {
+func _() {
 	telefonoA := &Telefono{"01230", &Dispositivo{}}
 	telefonoA.SetConexion(&Red4G{})
 	fmt.Printf("%s\n", telefonoA.ConectarInternet())
