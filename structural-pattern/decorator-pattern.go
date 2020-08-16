@@ -56,7 +56,7 @@ func (ccc *CafeConCanela) GetDetalle() string {
 	return ccc.CafeDecorador.GetDetalle() + " con canela"
 }
 
-func main() {
+func _() {
 	cafe := &Cafe{}
 	fmt.Printf("Detalle: %s - Importe %d\n", cafe.GetDetalle(), cafe.GetCosto())
 
