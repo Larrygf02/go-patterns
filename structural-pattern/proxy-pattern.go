@@ -24,7 +24,7 @@ func (n *NavegadorProxy) Direccion(url string) string {
 	return n.navegador.Direccion(url)
 }
 
-func main() {
+func _() {
 	navegadorProxy := &NavegadorProxy{&Navegador{}}
 	fmt.Printf("%s\n", navegadorProxy.Direccion("http://google.com"))
 	fmt.Printf("%s\n", navegadorProxy.Direccion("http://twitter.com"))
